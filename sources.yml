@@ -1,0 +1,10 @@
+# models/sources.yml (as mentioned in Step 7)
+version: 2
+
+sources:
+  - name: olist_raw
+    database: Olist Group 2
+    schema: raw # The BigQuery dataset where raw tables reside
+    tables:
+      # ... other tables
+      - name: olist_geolocation_dataset # This BigQuery table is sourced from GCS
