@@ -1,0 +1,11 @@
+# Ignore raw data files
+data/raw/olist_geolocation_dataset.csv
+data/raw/*.csv        # Even better: ignore all CSVs in the raw data folder
+
+# Other common ignorable files
+__pycache__/
+*.pyc
+.env
+.dbt/profiles.yml
+dbt_modules/
+target/
